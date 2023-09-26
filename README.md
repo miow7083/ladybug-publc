@@ -1,50 +1,51 @@
-<p align="center">
-<a href="https://github.com/FantoX/Atlas-MD">
-    <img src="https://i.imgur.com/MClOeqe.jpeg">
+  0<p align="center">
+<a href="https://github.com/miow7083/Ladybug-public">
+    <img src="https://i.pinimg.com/564x/db/a7/df/dba7dfd6bda11a35818394240c320fc9.jpg">
   </a>
 
-<h1 align="center"> Atlas MD
+<h1 align="center"> Ladybug BY_RAONE
 </h1>
 
 <p align="center"> 
-Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="https://github.com/FantoX">FantoX</a> and his team "Atlas" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
+ Konnichiwa Senpai, I am "Ladybug" modified version of "Atlas" Modified by RA_ONE  to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
 
-<h3 align="center"> Atlas MD - The Future Is Here
+
+<h3 align="center"> Ladybug - The Future Is Here
 </h4>
 
 <br>
 
 <p align="center">
-  <a href="https://github.com/FantoX/Atlas-MD/fork">
-    <img src="https://img.shields.io/github/forks/FantoX/Atlas-MD?label=Fork&style=social">
+  <a href="https://github.com/miow7083/Ladybug-public/fork">
+    <img src="https://img.shields.io/github/forks/FantoX001/Atlas-MD?label=Fork&style=social">
     
     
-  <a href="https://github.com/FantoX/Atlas-MD/stargazers">
-    <img src="https://img.shields.io/github/stars/FantoX/Atlas-MD?style=social">
+  <a href="https://github.com/miow7083/Ladybug-public/stargazers">
+    <img src="https://img.shields.io/github/stars/FantoX001/Atlas-MD?style=social">
   </a>
 <p align="center">
-<a href="https://github.com/FantoX/Atlas-MD"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFantoX%2FAtlas-MD&count_bg=%23FFA305&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=People+Visited&edge_flat=false)](https://hits.seeyoufarm.com" width="150px" /></a>
+<a href="hhttps://github.com/miow7083/Ladybug-public"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFantoX001%2FAtlas-MD&count_bg=%23FFA305&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=People+Visited&edge_flat=false)](https://hits.seeyoufarm.com" width="150px" /></a>
 </p>
 
 
   
 <p align="center">
-<a href="https://github.com/FantoX"><img title="Owner" src="https://img.shields.io/badge/Owner-Team Atlas-white.svg?style=for-the-badge&logo=github" width="170px"></a>
+<a href="https://github.com/7thRA-ONE"><img title="Owner" src="https://img.shields.io/badge/Owner-RAONE-white.svg?style=for-the-badge&logo=github" width="170px"></a>
 
- <a href="https://github.com/FantoX/Atlas-MD/blob/main/LICENSE.md">
+ <a href="https://github.com/miow7083/Ladybug-public/blob/main/LICENSE.md">
   
-<img src='https://img.shields.io/github/license/FantoX/Atlas-MD?color=%231e81b0&style=for-the-badge' width="114px">
+<img src='https://img.shields.io/github/license/github.com/7thRA-ONE?color=%231e81b0&style=for-the-badge' width="114px">
 
 <p align="center">
-<a href="https://github.com/FantoX"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-YES-green.svg?style=for-the-badge" width="150px"></a>
-<a href="https://github.com/FantoX"><img title="" src="https://img.shields.io/badge/Maintained-YES-green.svg?style=for-the-badge" width="143px"></a>
+<a href=" https://github.com/7thRA-ONE"><img title="Public Edition " src="https://img.shields.io/badge/Open%20Source-YES-green.svg?style=for-the-badge" width="150px"></a>
+<a href=" https://github.com/7thRA-ONE"><img title="" src="https://img.shields.io/badge/Maintained-YES-green.svg?style=for-the-badge" width="143px"></a>
 </p>
 <br>
 
 ---
  <br>
  
- # 🧩 Deploy Atlas
+ # 🧩 Deploy Ladybug
      
 <details close>
 <summary>Click to choose your favourite platform to Deploy</summary>
@@ -55,7 +56,7 @@ Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="http
 </h4>
 
 <p align="center" >
-    <a href="https://repl.it/github/FantoX/Atlas-MD">
+    <a href="https://repl.it/github/FantoX001/Atlas-MD">
     <img src="https://i.ibb.co/zrB5kMh/deploy-on-repl.jpg" width="170px" alt="Deploy on Heroku" >
     </a>
     <br>     
@@ -75,7 +76,7 @@ Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="http
 </h4>
   
 <p align="center">
-    <a href="https://railway.app/new/template/Gts2Zx?referralCode=f3gg2m">
+    <a href="https://railway.app/template/tZWmhj?referralCode=f3gg2m">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway" width="170px">
     </a>
     <br>
@@ -95,7 +96,7 @@ Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="http
 </h4>
       
 <p align="center">
-    <a href="https://app.koyeb.com/apps/deploy?type=docker&image=quay.io/FantoX/Atlas-MD:main&env[PORT]=8000&env[PREFIX]=-&&env[MONGODB]=mongodb+srv://fantox001:zjmbvgwr52@cluster0.qh05pl9.mongodb.net/?retryWrites=true&w=majority&&env[SESSION_ID]=enterYourSession&&env[MODS]=918101187835,919735940276&&env[TENOR_API_KEY]=AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c&&env[PACKNAME]=Miku-Nakano&&env[AUTHOR]=FantoX&&name=atlas">
+    <a href="https://app.koyeb.com/apps/deploy?type=docker&image=quay.io/fantox001/atlas-md:main&env[PORT]=8000&env[PREFIX]=-&&env[MONGODB]=mongodb+srv://fantox001:zjmbvgwr52@cluster0.qh05pl9.mongodb.net/?retryWrites=true&w=majority&&env[SESSION_ID]=enterYourSession&&env[MODS]=918101187835,919735940276&&env[TENOR_API_KEY]=AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c&&env[PACKNAME]=Miku-Nakano&&env[AUTHOR]=FantoX&&name=atlas">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy on Koyeb" width="155px">
     </a>
    <br>     
@@ -119,7 +120,7 @@ Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="http
 </p>
 
 <p align="center" >
-    <a href="https://heroku.com/deploy?template=https://github.com/FantoX/Atlas-MD">
+    <a href="https://heroku.com/deploy?template=https://github.com/7thRA-ONE/Ladybug-1">
     <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
     </a>
 
@@ -197,14 +198,14 @@ Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="http
 
     
     
-# 📑 Atlas Deploy and Hosting guide
+# 📑 LadYbug Deploy and Hosting guide
 
 <details close>
 <summary>Click to read Deploy Manual</summary>    
     
 ## 🔶 Repl.it Deploy:
       
-- [Fork Main Repo](https://github.com/FantoX/Atlas-MD/fork)
+- [Fork Main Repo](https://github.com/miow7083/Ladybug-public/fork)
 - Create a MongoDB URL. Need help? Watch this short 1 minute [Video Guide](https://youtube.com/shorts/pIHvoXkwmq4?feature=share) for MongoDB URL.
 - Click on `Deploy to Repl.it` button ( `For those who didn't modified bot.`). In other case (`For those who modified bot.`) edit README.md file and chage the repo link of Repl.it deply button from `https://github.com/Fantox01/Atlas-MD` to your fork URL `https://github.com/<Your GitHub Username>/<Your Atlas fork repo name>`.
 - After cloning is done in Repl.it go to `Secrets` in your Repl.it project and put these values (Mandatory).
@@ -225,7 +226,7 @@ TENOR_API_KEY | Your tenor API key if you have. Or use this public one: `AIzaSyC
 - After it's deployed an webpage should appear just put your Previously copied `Session ID` and click on `Get QR`.
 - Scan the QR from WhatsApp ---> Linked devices ---> Link a device.
 - After connecting come back to Repl.it and copy that Website (Webview) link from Repl.it.
-- Next create a [UptimeRobot](https://uptimerobot.com/?rid=40f9e46fb079d4) account and add that copied lin kas an `HTTPS` monitor in UptimeRobot.
+- Next create a [UptimeRobot](https://uptimerobot.com/?rid=ccbc120b7f9058) account and add that copied lin kas an `HTTPS` monitor in UptimeRobot.
 - UptimeRobot will prevent Repl.it's auto sleep.
 - If you are having issues follow [Repl.it Deploy Tutorial](https://youtu.be/R-_DU73UH8Q).
       
@@ -235,7 +236,7 @@ TENOR_API_KEY | Your tenor API key if you have. Or use this public one: `AIzaSyC
       
 ## ⚛️ Heroku Deploy:
       
-- [Fork Main Repo](https://github.com/FantoX/Atlas-MD/fork)
+- [Fork Main Repo](https://github.com/miow7083/Ladybug-public/fork)
 - Create a MongoDB URL. Need help? Watch this short 1 minute [Video Guide](https://youtube.com/shorts/pIHvoXkwmq4?feature=share) for MongoDB URL.
 - Click on `Deploy to Heroku` button ( `For those who didn't modified bot.`). In other case (`For those who modified bot.`) edit README.md file and chage the repo link of Repl.it deply button from `https://github.com/Fantox01/Atlas-MD` to your fork URL `https://github.com/<Your GitHub Username>/<Your Atlas fork repo name>` also got to `app.json` and change `Website` ans `Repository` link from my link to your link. Then click on `Deploy to Heroku` button.
 - Then put these values in environment variables accordint to instructions (Mandatory).
@@ -244,7 +245,7 @@ TENOR_API_KEY | Your tenor API key if you have. Or use this public one: `AIzaSyC
       
 KEY | VALUE
 -- | --
-MODS | Phone numbers in this format (`918101187876`,`925897863489`) without `+` or `SPACE`.
+MODS | Phone numbers in this format (`917820953034`,`925897863489`) without `+` or `SPACE`.
 MONGODB | Your MongoDB URL
 SESSION_ID | Any random value (`EX: gwfdrte5678`) and `keep it copied`.
 PREFIX | Any single special character except `@` (`Ex: . or / or * or , etc.`)
@@ -264,7 +265,7 @@ TENOR_API_KEY | Your tenor API key if you have. Or use this public one: `AIzaSyC
     
       
 ## 🔷 Railway Deploy:   
-- [Fork Main Repo](https://github.com/FantoX/Atlas-MD/fork)
+- [Fork Main Repo](https://github.com/FantoX001/Atlas-MD/fork)
 - Create a MongoDB URL. Need help? Watch this short 1 minute [Video Guide](https://youtube.com/shorts/pIHvoXkwmq4?feature=share) for MongoDB URL.
 - Click on `Deploy to Railway` button ( `For those who didn't modified bot.`). If you modified bot and want to deploy your modified version in Railway then that button will not help you. Go to Railway website and deploy github repo from there manually.
 - Those who are deploying through button: Put all necessary details there according to instructions given there.
@@ -293,7 +294,7 @@ TENOR_API_KEY | Your tenor API key if you have. Or use this public one: `AIzaSyC
       
       
 ## ❇️ Koyeb Deploy:   
-- [Fork Main Repo](https://github.com/FantoX/Atlas-MD/fork)
+- [Fork Main Repo](https://github.com/FantoX001/Atlas-MD/fork)
 - Create a MongoDB URL. Need help? Watch this short 1 minute [Video Guide](https://youtube.com/shorts/pIHvoXkwmq4?feature=share) for MongoDB URL.
 - Click on `Deploy to Railway` button ( `For those who didn't modified bot.`). If you modified bot and want to deploy your modified version `I'm sorry to say as Koyeb works through Quay.io hosted docker so you can't deploy your modified version in fully 100% working state.` Though you can deploy manually your Github repo in Koyeb but in that case bot's 100% commands will not work.
 - Those who are deploying through button: Put all necessary details there according to instructions given there (Don't forget to change MongoDB URL an put your URL).
@@ -322,7 +323,7 @@ TENOR_API_KEY | Your tenor API key if you have. Or use this public one: `AIzaSyC
   
 ## 🪟 CMD / VS Code / Powershell / Terminal Deployment Method 
 
-- [Download Updated code](https://github.com/FantoX/Atlas-MD/archive/refs/heads/main.zip) from Main GitHub Repo or Download from your Forked Repo.
+- [Download Updated code](https://github.com/FantoX001/Atlas-MD/archive/refs/heads/main.zip) from Main GitHub Repo or Download from your Forked Repo.
 - Extract the `.zip` and open Vs code / Cmd / Powershell / Terminal in that directory and give thesse following commands one-by-one:
 - Rename `.env.example` to `.env` and fill in the required details in `.env` file and `config.js` (Mandatory).
 
@@ -370,7 +371,7 @@ sudo apt install wget
 sudo apt install npm
 sudo apt install imagemagick
 
-git clone https://github.com/FantoX/Atlas-MD
+git clone https://github.com/FantoX001/Atlas-MD
 
 ls
 cd Atlas-MD
@@ -393,7 +394,7 @@ npm i
 npm start
 
 ``` 
-- Note in `git clone <my bot's repo>` section your can use Your customised bot's github link too (For that make sure you [Forked](https://github.com/FantoX/Atlas-MD/fork) this repo and modified `.env` file and `config.js`).
+- Note in `git clone <my bot's repo>` section your can use Your customised bot's github link too (For that make sure you [Forked](https://github.com/FantoX001/Atlas-MD/fork) this repo and modified `.env` file and `config.js`).
 - This method will work on most other bots too.
 
 #### 📌 To stop a bot in Userland
@@ -431,101 +432,76 @@ npm start
      
 <details close>
 <summary>Open Plug-in Store</summary>
-
-## 🪟 Economy plug-in
-**〽️ Description:** This plugin conatains all Cashino and Gambling commands. <br><br>
-**🧲️ Plug-in installation url:** 
-```
-https://gist.githubusercontent.com/FantoX/63bcf78d6da0bce7d9f18343e3143fbc/raw/224c92477109f7082f698890fe510874da597d5c/economy.js
-```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/63bcf78d6da0bce7d9f18343e3143fbc)
-<br><br>
-
-## 🪟 RPG plug-in
-**〽️ Description:** This plugin conatains all RPG game commands. <br><br>
-**🧲️ Plug-in installation url:** 
-```
-https://gist.githubusercontent.com/FantoX/151e440d351549c896042155c223c59c/raw/2fbced16ebd14300f917248801c707d9733118ad/rpg.js
-```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/151e440d351549c896042155c223c59c)
-<br><br>
     
-## 🪟 Code-Runner plug-in
-**〽️ Description:** This plugin conatains commands made for Coders <br><br>
-**🧲️ Plug-in installation url:** 
-```
-https://gist.githubusercontent.com/FantoX/8c2b76e4ed2d96eb370379a56f0cf330/raw/d3322fab57c52afd83cf83fc3f5afa493dc4e88f/code-Runner.js
-```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/8c2b76e4ed2d96eb370379a56f0cf330)
-<br><br>
-
 ## 🪟 Audio Edit plug-in
 **〽️ Description:** This plugin conatains 8 audio modification commands using "**ffmpeg**" <br><br>
 **🧲️ Plug-in installation url:** 
 ```
-https://gist.githubusercontent.com/FantoX/4e097be1a35b9c00bf0bc9f6635e335b/raw/cc57a7780dd80612b62ded960af3d70d19662956/audio-edit.js
+https://gist.githubusercontent.com/FantoX001/b818960e024c541e155f948db34a2da2/raw/f6771fbd4c615a64eafb92d53e7627276f20167a/audio-edit.js
 ```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/4e097be1a35b9c00bf0bc9f6635e335b)
+💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX001/b818960e024c541e155f948db34a2da2)
 <br><br>
 
 ## 🪟 Image Edit plug-in
 **〽️ Description:** This plugin conatains 4 image manipulation commands.<br><br>
 **🧲️ Plug-in installation url:** 
 ```
-https://gist.githubusercontent.com/FantoX/9f6cb696d645a49a98abba00c570cfe9/raw/23154ec10c2ee08558a8aca44389f0a983aa4dea/image-Edit.js
+https://gist.githubusercontent.com/FantoX001/b48fd5040b2cd83e5e331c0d2c974871/raw/909c5a6a32cfcb2dbb965f1ee2a5e3025802de5b/image-edit.js
 ```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/9f6cb696d645a49a98abba00c570cfe9)
+💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX001/b48fd5040b2cd83e5e331c0d2c974871)
 <br><br>
     
 ## 🪟 Text to Speech plug-in
 **〽️ Description:** This plugin conatains text-to-speech functionality with 7 languages using "**google text to speech engine**" <br><br>
 **🧲️ Plug-in installation url:** 
 ```
-https://gist.githubusercontent.com/FantoX/998a3b2937080af7c30a2639544fa24c/raw/afc9ba94cbaea95e971e3aea3f80e492249c75d7/text-to-speech.js
+https://gist.githubusercontent.com/FantoX001/109e3f04e70ca2edeb8d47072bbd0499/raw/84de4d44994fcb8b9f315a2be41eac062378df01/text-to-speech.js
 ```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/998a3b2937080af7c30a2639544fa24c)
+💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX001/109e3f04e70ca2edeb8d47072bbd0499)
 <br><br>
     
 ## 🪟 Logo Maker plug-in
 **〽️ Description:** This plugin conatains 40 logo maker commands. <br><br>
 **🧲️ Plug-in installation url:** 
 ```
-https://gist.githubusercontent.com/FantoX/67035f308b809aaabad8faa001fe473d/raw/72c2b3c100471375755817119c7ab391985bd7f3/logo-maker.js
+https://gist.githubusercontent.com/FantoX001/b8e4a9782623c6197c10f68aa798a548/raw/7466871764434cf4c2ee30b15aac871e5db48a74/logo-maker.js
 ```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/67035f308b809aaabad8faa001fe473d)
+💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX001/b8e4a9782623c6197c10f68aa798a548)
 <br><br>
     
 ## 🪟 Chat GPT plug-in
 **〽️ Description:** This plugin conatains 2 main Open AI tools which are "**ChatGPT**" and "**Dall-E**" <br><br>
 **🧲️ Plug-in installation url:** 
 ```
-https://gist.githubusercontent.com/FantoX/04507d2d7411996622513759ea05775d/raw/7d27fc2bb2f6d8a45d3e929e3904c66895d811ad/chat-GPT.js
+https://gist.githubusercontent.com/FantoX001/ec3e327c9711b1d3059cc26b8b7945be/raw/9396030969cbf0f24ad1c318a9035540ce4577b2/chat-GPT.js
 ```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/04507d2d7411996622513759ea05775d)
+💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX001/ec3e327c9711b1d3059cc26b8b7945be)
 <br><br>
     
 ## 🪟 Fun Commands plug-in
 **〽️ Description:** This plugin conatains 17 funny commands. <br><br>
 **🧲️ Plug-in installation url:** 
 ```
-https://gist.githubusercontent.com/FantoX/e02ed98798e5cc73a0778d8bc04f0f03/raw/77293b2b35d875ce0c91357d879fe5d0881423b9/fun.js
+https://gist.githubusercontent.com/FantoX001/e4df3eb3cc06baaccce3130a29262b30/raw/4c9b280fe527891f4d935b36b1c06e7f2fda9f6f/fun.js
 ```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/e02ed98798e5cc73a0778d8bc04f0f03)
+💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX001/e4df3eb3cc06baaccce3130a29262b30)
 <br><br>
     
 ## 🪟 Tiktok Downloader plug-in
 **〽️ Description:** This plugin conatains 4 tiktok video downloader commands. <br><br>
 **🧲️ Plug-in installation url:** 
 ```
-https://gist.githubusercontent.com/FantoX/2de67bc72021805417cbd317385ea71a/raw/f70879fc861dadd440f4a4a7dbb01cdae44b3c56/tiktokdl.js
+https://gist.githubusercontent.com/FantoX001/481b039ef502a56339374b29b7491695/raw/854ed660349cc3fd45de89ce137721c674a03ec3/tiktokdl.js
 ```
-💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX/2de67bc72021805417cbd317385ea71a)
+💡 [Plug-in Source Code ↗](https://gist.github.com/FantoX001/481b039ef502a56339374b29b7491695)
 <br><br>
     
 ## 🪟 Anime NSFW Image plug-in
 **〽️ Description:** This plugin conatains 100 anime NSFW image commands using my own API<br><br>
-**🧲️ Plug-in will be back soon...** 
-
+**🧲️ Plug-in installation url:** 
+```
+https://gist.githubusercontent.com/FantoX001/804c106f1f2fb1ae46e9bd63f854069d/raw/a93191b83c0cca44abb7e0e26b55caf2892f0bb4/nsfw-image.js
+```
 <br><br>
 
 
@@ -547,21 +523,21 @@ https://gist.githubusercontent.com/FantoX/2de67bc72021805417cbd317385ea71a/raw/f
 <br>
     
 
-# ⚡️ Atlas Platform Compatibility:
+# ⚡️ LadYbug Platform Compatibility:
 <br>
 
-- Atlas offers highest platform compatibility.
+- LadYbug offers highest platform compatibility Juat like Atlas.
 - Just deploy and use on your favourite platform.
 - Sorted by Recommendation: Repl.it, Railway, Heroku, Koyeb
       
 <br>
       
-# 💫 Dependencies of Atlas:
+# 💫 Dependencies of LadYbug :
 
 <br>
 
 - [WhiskeySockets Baileys V-6.1.0](https://github.com/WhiskeySockets/Baileys)
-- [Scrappy API (For Instagram, Facebook, Lyrics and ❌videos scraping )](https://github.com/FantoX/Scrappy-API)
+- [Scrappy API (For Instagram, Facebook, Lyrics and ❌videos scraping )](https://github.com/FantoX001/Scrappy-API)
 - [FantoX APIs ( For NSFW )](https://fantox-api.vercel.app/)
 
 <br>
@@ -575,7 +551,7 @@ https://gist.githubusercontent.com/FantoX/2de67bc72021805417cbd317385ea71a/raw/f
       
 <br>
 
-- Read [PublicKeys.md](https://github.com/FantoX/Atlas-MD/blob/main/PublicKeys.md) to use our `provided public keys` if you are lazy to create your own. We have already provided everying you need to run the bot.
+- Read [PublicKeys.md](https://github.com/FantoX001/Atlas-MD/blob/main/PublicKeys.md) to use our `provided public keys` if you are lazy to create your own. We have already provided everying you need to run the bot.
 - Changeable between `20 added Characters` ( Atlas, Power, Makima, Denji, Zero Two, Chika, Miku, Marin Kitagawa ) and more can be added by user inside `BotCharacters.js` file. Type `-charlist` command to get character list.
 - Fully powered by MongoDb ( 3 databases added ).
 - Self / Public / Private mode.
@@ -586,6 +562,7 @@ https://gist.githubusercontent.com/FantoX/2de67bc72021805417cbd317385ea71a/raw/f
 - Highest Commands and Features.
 - User Banning / Group Banning.
 - Highest Security compared to most other public bots.
+- Anime searching Powered by Aniwatch.to 
 
 </details>    
     
@@ -611,7 +588,7 @@ https://gist.githubusercontent.com/FantoX/2de67bc72021805417cbd317385ea71a/raw/f
 - Atlas has `RPG and Economy` which means you can use it as a `RPG Bot` or `Casino Bot`.
 - Atlas has `User Banning / Group Banning` which means you can use it as a `Anti Spam Bot`.
 - Atlas is a Folder Type bot which represents `Highest Stability`, `Highest Performance` and `Developer / User friendly`.
-- Atlas comes with [MIT](https://github.com/FantoX/Atlas-MD/blob/main/LICENSE.md) License which means you can use it as a `base for your own bot` and can `modify it as you want` and can `add your own features`.
+- Atlas comes with [MIT](https://github.com/FantoX001/Atlas-MD/blob/main/LICENSE.md) License which means you can use it as a `base for your own bot` and can `modify it as you want` and can `add your own features`.
 
 </details> 
     
@@ -621,7 +598,7 @@ https://gist.githubusercontent.com/FantoX/2de67bc72021805417cbd317385ea71a/raw/f
 
 # 🧣 Contributors:
 
-- Check [Atlas Contributors](https://github.com/FantoX/Atlas-MD/graphs/contributors) list.
+- Check [Atlas Contributors](https://github.com/FantoX001/Atlas-MD/graphs/contributors) list.
 - Feel free to contribute in this project it increase it's stability and update. I will merge your respected contribution after reviewing it.
 - No personal modification / re-branding ( Changing bot name, owner name ) pull requests will be merged !
     
@@ -648,10 +625,12 @@ https://gist.githubusercontent.com/FantoX/2de67bc72021805417cbd317385ea71a/raw/f
 ---
 <br>
 
-<h2 align="center">🔰 Meet Team Atlas 🔰
+<h2 align = "center " > Made with Love BY RAONE </h2>
+
+<h2 align="center">🔰 Thanks to Team Atlas for base  🔰
 </h2>
 
-[![Fantox](https://github.com/FantoX.png)](https://github.com/FantoX)  | [![Ahmii-kun](https://github.com/Ahmii-kun.png)](https://github.com/Ahmii-kun) | [![Pratyush](https://github.com/pratyush4932.png)](https://github.com/pratyush4932) | [![Devime](https://github.com/Devime69.png)](https://github.com/Devime69) | [![Kai](https://github.com/Kai0071.png)](https://github.com/Kai0071) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
+[![Fantox](https://github.com/FantoX001.png)](https://github.com/FantoX001)  | [![Ahmii-kun](https://github.com/Ahmii-kun.png)](https://github.com/Ahmii-kun) | [![Pratyush](https://github.com/pratyush4932.png)](https://github.com/pratyush4932) | [![Devime](https://github.com/Devime69.png)](https://github.com/Devime69) | [![Kai](https://github.com/Kai0071.png)](https://github.com/Kai0071) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
 ----|----|----|----|----|----
-[FantoX](https://github.com/FantoX)  | [Ahmii Kun](https://github.com/Ahmii-kun) | [Pratyush](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
+[FantoX](https://github.com/FantoX001)  | [Ahmii Kun](https://github.com/Ahmii-kun) | [Pratyush](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
 Owner, Main Developer, Maintainer, Dubugger  | Co-Developer, Co-Maintainer | Support Developer | API Maintainer | Ideas, Testing | Ideas, Testing
