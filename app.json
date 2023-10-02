@@ -1,5 +1,5 @@
-{
-  "name": "Atlas-MD",
+ {
+  "name": "Ladybug",
   "description": "The future of WhatsApp bots now with plugin support.",
   "keywords": [
     "bot",
@@ -14,35 +14,43 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/FantoX/Atlas-MD#readme",
-  "repository": "https://github.com/FantoX/Atlas-MD.git",
-  "logo": "https://graph.org/file/02abf0fd8fc2a13cc67a1.jpg",
+  "website": "https://github.com/7thRA-ONE/Chika#readme",
+  "repository": "https://github.com/7thRA-ONE/Chika.git",
+  "logo": "https://i.pinimg.com/564x/db/a7/df/dba7dfd6bda11a35818394240c320fc9.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of your bot Ex: . , / , # , & etc. Put anythong except @ (Default is -)",
+      "description": "Prefix of your bot Ex: - , / , # , & etc. Put anything except @ (Default is .)",
       "required": false
     },
     "SESSION_ID": {
       "description": "A random string for your bot session. Which works as an OTP to get qr code. You have to change session every time to get a new qr."
     },
     "MODS": {
-      "description": "Put any phone number without + , () and spaces \",\" Ex: 918101187835,929864781259 )",
+      "description": "Put any phone number without + , () and spaces \",\" Ex:  917820953034,917083409908  )",
       "required": false
     },
     "TENOR_API_KEY": {
-      "description": "A key used for gif searches. If you don't have any keet it default: AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c",
-      "required": false
-    },
-    "PACKNAME": {
-      "description": "Put a sticker packname here. Default is: Atlas Bot",
+      "description": "A key used for gif searches. If you don't have any, keep it default: AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c",
       "required": false
     },
     "MONGODB": {
-      "description": "Put Your MongoDB URL. You can create MongoDB Atlas URL for free."
+      "description": "Put Your MongoDB URL. We will not provide any public MongoDB URL because of stability. You can create MongoDB Atlas URL for free."
+    },
+    "PACKNAME": {
+      "description": "Your bot's package name",
+      "required": false
+    },
+    "PORT": {
+      "description": "The port on which your application runs",
+      "required": false
     },
     "OPENAI_API": {
-      "description": "Put your OpenAI API key here if you want to use ChatGPT and DALL-E.",
+      "description": "Your OpenAI API key",
+      "required": false
+    },
+    "AUTHOR": {
+      "description": "The bot name for ladybug DB ",
       "required": false
     }
   },
@@ -54,7 +62,7 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg.git"
     }
   ]
 }
