@@ -1,5 +1,5 @@
   0<p align="center">
-<a href="https://github.com/miow7083/Ladybug-public">
+<a href="https://github.com/7thRA-ONE/LADYBUG-2/">
     <img src="https://i.pinimg.com/564x/db/a7/df/dba7dfd6bda11a35818394240c320fc9.jpg">
   </a>
 
@@ -17,14 +17,14 @@
 
 <p align="center">
   <a href="https://github.com/miow7083/Ladybug-public/fork">
-    <img src="https://img.shields.io/github/forks/FantoX001/Atlas-MD?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/7thRA-ONE/LADYBUG-2?label=Fork&style=social">
     
     
   <a href="https://github.com/miow7083/Ladybug-public/stargazers">
-    <img src="https://img.shields.io/github/stars/FantoX001/Atlas-MD?style=social">
+    <img src="https://img.shields.io/github/stars/7thRA-ONE/LADYBUG-2?style=social">
   </a>
 <p align="center">
-<a href="hhttps://github.com/miow7083/Ladybug-public"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFantoX001%2FAtlas-MD&count_bg=%23FFA305&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=People+Visited&edge_flat=false)](https://hits.seeyoufarm.com" width="150px" /></a>
+<a href=" https://github.com/7thRA-ONE/LADYBUG-2/"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F7thRA-ONE%2F7LADYBUG-2&count_bg=%23FFA305&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=People+Visited&edge_flat=false)](https://hits.seeyoufarm.com" width="150px" /></a>
 </p>
 
 
