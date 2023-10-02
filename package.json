@@ -1,15 +1,19 @@
+ 
 {
-  "name": "atlas",
-  "version": "3.5.0",
-  "description": "The future of WhatsApp bots with plugin support.",
+  "name": "ladybug",
+  "version": "1.1.0",
+  "description": "The future of WhatsApp bots now with plugin support.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --max-old-space-size=4096 index.js"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "npm run pm2memory",
+  "pm2memory": "pm2 start index.js --deep-monitoring --attach --name ladybug --max-memory-restart 600M",
+  "stop": "pm2 stop zero-two",
+  "restart": "pm2 restart ladybug"
+   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/7thRA-ONE/Chika.git"
+    "url": "git+https://github.com/7ra1/ladybug.git"
   },
   "keywords": [
     "bot",
@@ -17,73 +21,108 @@
     "whatsapp",
     "baileys",
     "baileys bot",
+    "ladybug bot",
     "md bot"
   ],
-  "author": "FantoX",
+  "author": "☈A-ONE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/7thRA-ONE/Chika/issues"
+    "url": "https://github.com/7ra1/ladybug/issues"
   },
-  "homepage": "https://github.com/7thRA-ONE/Chika#readme",
+  "homepage": "https://github.com/7ra1/ladybug#readme",
+  
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@fantox01/lyrics-scraper": "^1.0.1",
     "@hapi/boom": "^10.0.1",
-    "@napi-rs/canvas": "^0.1.41",
-    "@whiskeysockets/baileys": "^6.2.1",
+   "baileysjs": "npm:@sampandey001/baileys",
     "axios": "^1.2.2",
-     
-    "baileysjs": "^6.2.1",
+    
+   
     "canvacord": "^5.2.3",
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.12",
     "child_process": "^1.0.2",
     "discord-mongoose-economy": "^1.2.0",
-    "discord-xp": "^1.1.16",
+    "discord-xp": "https://github.com/7ra1/discord-xp.git",
     "discord.js": "^14.8.0",
-    "dotenv": "^16.1.4",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "figlet": "^1.5.2",
     "file-type": "^16.5.4",
+    "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "forever": "^4.0.3",
-    "forever-monitor": "^1.5.2",
     "form-data": "^4.0.0",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.1.1",
-    "g-i-s": "^2.1.6",
+    
+    "async-g-i-s": "^1.5.0",
     "google-it": "^1.6.4",
     "google-tts-api": "^2.0.2",
     "got": "^11.8.2",
     "goto": "^0.2.0",
     "human-readable": "^0.2.1",
     "hxz-api": "^1.0.1",
+     
     "jimp": "^0.16.1",
     "moment-timezone": "^0.5.43",
-    "mongoose": "^7.4.4",
-    "mumaker": "^1.0.0",
+    "mongodb": "^5.8.0", 
+    "mongoose": "^7.5.0",
+    "clarifai-nodejs-grpc": "^9.8.3",
+    
+    "mumaker": "^2.0.0",
     "node-fetch": "^2.6.9",
     "node-id3": "^0.2.6",
+    "node-periodic-table": "^0.0.6",
     "openai": "^3.2.1",
     "path": "^0.12.7",
     "pdfkit": "^0.13.0",
-    "pino": "^8.1.0",
+    "perf_hooks": "^0.0.1",
+    "performance-now": "^2.1.0",
+    "pino": "^8.11.0",
     "qrcode": "^1.5.1",
+    "pm2": "^5.3.0",
     "qrcode-terminal": "^0.12.0",
+    "qs": "^6.11.2",
+    "os": "^0.1.2",
     "quick.db": "^9.1.6",
     "remove.bg": "^1.3.0",
     "util": "^0.12.5",
-    "uuid": "^9.0.0",
     "wa-sticker-formatter": "^4.4.4",
-    "ws": "^8.0.0",
     "youtube-yts": "^2.0.0",
-    "youtubedl-core": "^4.11.5"
+    "youtubedl-core": "^4.11.5",
+    "ytdl-core": "git+ssh://git@github.com:khlevon/node-ytdl-core.git#v4.11.4-patch.2",
+    "youtube-dl" : "^3.5.0",
+    
+    "z-anime": "github:raone2667/Z-Anime",
+    "ptable": "^0.0.3",
+    "logomaker": "^1.0.2",
+    "@7thraone/instagramdl": "^1.0.0",
+    "url": "^0.11.1",
+    "https": "^1.0.0"
   },
   "devDependencies": {
+    "@adiwajshing/eslint-config": "https://github.com/adiwajshing/eslint-config.git",
+    
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@types/got": "^9.6.11",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.0.0",
+    "@types/sharp": "^0.29.4",
+    "@types/ws": "^8.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.0.0",
+    "jest": "^27.0.6",
     "jimp": "^0.16.1",
     "link-preview-js": "^3.0.0",
     "qrcode-terminal": "^0.12.0",
-    "sharp": "^0.30.5"
+    "release-it": "^15.10.3",
+    "sharp": "^0.30.5",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.8.1",
+    "typedoc": "^0.24.7",
+    "typescript": "^4.0.0"
   },
   "peerDependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
