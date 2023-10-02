@@ -138,14 +138,14 @@ const startAtlas = async () => {
   Atlas.ev.on("connection.update", async (update) => {
     const { lastDisconnect, connection, qr } = update;
     if (connection) {
-      console.info(`[ ATLAS ] Server Status => ${connection}`);
+      console.info(`[ RAONE ] Server Status => ${connection}`);
     }
 
     if (connection === "close") {
       let reason = new Boom(lastDisconnect?.error)?.output.statusCode;
       if (reason === DisconnectReason.badSession) {
         console.log(
-          `[ ATLAS ] Bad Session File, Please Delete Session and Scan Again.\n`
+          `[ RAONE ] Bad Session File, Please Delete Session and Scan Again.\n`
         );
         process.exit();
       } else if (reason === DisconnectReason.connectionClosed) {
@@ -156,24 +156,24 @@ const startAtlas = async () => {
         startAtlas();
       } else if (reason === DisconnectReason.connectionReplaced) {
         console.log(
-          "[ ATLAS ] Connection Replaced, Another New Session Opened, Please Close Current Session First!\n"
+          "[ RAONE ] Connection Replaced, Another New Session Opened, Please Close Current Session First!\n"
         );
         process.exit();
       } else if (reason === DisconnectReason.loggedOut) {
         clearState();
         console.log(
-          `[ ATLAS ] Device Logged Out, Please Delete Session and Scan Again.\n`
+          `[ RAONE ] Device Logged Out, Please Delete Session and Scan Again.\n`
         );
         process.exit();
       } else if (reason === DisconnectReason.restartRequired) {
-        console.log("[ ATLAS ] Server Restarting...\n");
+        console.log("[ RAONE ] Server Restarting...\n");
         startAtlas();
       } else if (reason === DisconnectReason.timedOut) {
-        console.log("[ ATLAS ] Connection Timed Out, Trying to Reconnect...\n");
+        console.log("[ RAONE ] Connection Timed Out, Trying to Reconnect...\n");
         startAtlas();
       } else {
         console.log(
-          `[ ATLAS ] Server Disconnected: "It's either safe disconnect or WhatsApp Account got banned !\n"`
+          `[ RAONE ] Server Disconnected: "It's either safe disconnect or WhatsApp Account got banned !\n"`
         );
       }
     }
