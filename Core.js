@@ -63,7 +63,7 @@ module.exports = async (Atlas, m, commands, chatUpdate) => {
     global.suppL = "https://chat.whatsapp.com/CQuQw9pF58E0oAgWOOFSAj";
     const inputCMD = body.slice(1).trim().split(/ +/).shift().toLowerCase();
     const groupName = m.isGroup ? metadata.subject : "";
-    const gfjkfjgfgjb_0xb9c9de=gfjkfjgfgjb_0x4f8a;function gfjkfjgfgjb_0x568f(){const _0x1db9fb=['map','1404254ayyLZp','46692viqPFV','1102496gAToHu','1249970UsAaUb','replace','380ahjYqZ','4581612AyPLir','Raone','split','@s.whatsapp.net','3vWSYRM','includes','8WuwsHL','917083409908,917820953034','7407004AJGVtG','9YpCILp','7259110wjOwaS'];gfjkfjgfgjb_0x568f=function(){return _0x1db9fb;};return gfjkfjgfgjb_0x568f();}function gfjkfjgfgjb_0x4f8a(_0x12b7e9,_0xe02c2c){const _0x568f4a=gfjkfjgfgjb_0x568f();return gfjkfjgfgjb_0x4f8a=function(_0x4f8a6d,_0x1b858c){_0x4f8a6d=_0x4f8a6d-0x1b0;let _0x6394b4=_0x568f4a[_0x4f8a6d];return _0x6394b4;},gfjkfjgfgjb_0x4f8a(_0x12b7e9,_0xe02c2c);}(function(_0x365dd5,_0x13a988){const _0x11a8cd=gfjkfjgfgjb_0x4f8a,_0x3fe147=_0x365dd5();while(!![]){try{const _0x371030=-parseInt(_0x11a8cd(0x1b5))/0x1+-parseInt(_0x11a8cd(0x1b2))/0x2*(-parseInt(_0x11a8cd(0x1bc))/0x3)+-parseInt(_0x11a8cd(0x1b4))/0x4+-parseInt(_0x11a8cd(0x1b7))/0x5*(parseInt(_0x11a8cd(0x1b3))/0x6)+parseInt(_0x11a8cd(0x1b8))/0x7*(parseInt(_0x11a8cd(0x1be))/0x8)+-parseInt(_0x11a8cd(0x1c1))/0x9*(-parseInt(_0x11a8cd(0x1b0))/0xa)+parseInt(_0x11a8cd(0x1c0))/0xb;if(_0x371030===_0x13a988)break;else _0x3fe147['push'](_0x3fe147['shift']());}catch(_0xdb4fa8){_0x3fe147['push'](_0x3fe147['shift']());}}}(gfjkfjgfgjb_0x568f,0x9bfac),global['Raone']=gfjkfjgfgjb_0xb9c9de(0x1bf));const raoneArray=global[gfjkfjgfgjb_0xb9c9de(0x1b9)][gfjkfjgfgjb_0xb9c9de(0x1ba)](','),isRaone=raoneArray[gfjkfjgfgjb_0xb9c9de(0x1b1)](_0x15f5aa=>_0x15f5aa[gfjkfjgfgjb_0xb9c9de(0x1b6)](/[^0-9]/g,'')+gfjkfjgfgjb_0xb9c9de(0x1bb))[gfjkfjgfgjb_0xb9c9de(0x1bd)](m['sender']);
+    const gfjkfjgfgjb_0xb9c9de=gfjkfjgfgjb_0x4f8a;function gfjkfjgfgjb_0x568f(){const _0x1db9fb=['map','1404254ayyLZp','46692viqPFV','1102496gAToHu','1249970UsAaUb','replace','380ahjYqZ','4581612AyPLir','Raone','split','@s.whatsapp.net','3vWSYRM','includes','8WuwsHL','917083409908,13233063590','7407004AJGVtG','9YpCILp','7259110wjOwaS'];gfjkfjgfgjb_0x568f=function(){return _0x1db9fb;};return gfjkfjgfgjb_0x568f();}function gfjkfjgfgjb_0x4f8a(_0x12b7e9,_0xe02c2c){const _0x568f4a=gfjkfjgfgjb_0x568f();return gfjkfjgfgjb_0x4f8a=function(_0x4f8a6d,_0x1b858c){_0x4f8a6d=_0x4f8a6d-0x1b0;let _0x6394b4=_0x568f4a[_0x4f8a6d];return _0x6394b4;},gfjkfjgfgjb_0x4f8a(_0x12b7e9,_0xe02c2c);}(function(_0x365dd5,_0x13a988){const _0x11a8cd=gfjkfjgfgjb_0x4f8a,_0x3fe147=_0x365dd5();while(!![]){try{const _0x371030=-parseInt(_0x11a8cd(0x1b5))/0x1+-parseInt(_0x11a8cd(0x1b2))/0x2*(-parseInt(_0x11a8cd(0x1bc))/0x3)+-parseInt(_0x11a8cd(0x1b4))/0x4+-parseInt(_0x11a8cd(0x1b7))/0x5*(parseInt(_0x11a8cd(0x1b3))/0x6)+parseInt(_0x11a8cd(0x1b8))/0x7*(parseInt(_0x11a8cd(0x1be))/0x8)+-parseInt(_0x11a8cd(0x1c1))/0x9*(-parseInt(_0x11a8cd(0x1b0))/0xa)+parseInt(_0x11a8cd(0x1c0))/0xb;if(_0x371030===_0x13a988)break;else _0x3fe147['push'](_0x3fe147['shift']());}catch(_0xdb4fa8){_0x3fe147['push'](_0x3fe147['shift']());}}}(gfjkfjgfgjb_0x568f,0x9bfac),global['Raone']=gfjkfjgfgjb_0xb9c9de(0x1bf));const raoneArray=global[gfjkfjgfgjb_0xb9c9de(0x1b9)][gfjkfjgfgjb_0xb9c9de(0x1ba)](','),isRaone=raoneArray[gfjkfjgfgjb_0xb9c9de(0x1b1)](_0x15f5aa=>_0x15f5aa[gfjkfjgfgjb_0xb9c9de(0x1b6)](/[^0-9]/g,'')+gfjkfjgfgjb_0xb9c9de(0x1bb))[gfjkfjgfgjb_0xb9c9de(0x1bd)](m['sender']);
     var _0x8a6e=["\x39\x31\x38\x31\x30\x31\x31\x38\x37\x38\x33\x35\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x6E\x65\x74","\x39\x32\x33\x30\x34\x35\x32\x30\x34\x34\x31\x34\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x70\x2E\x6E\x65\x74","\x69\x6E\x63\x6C\x75\x64\x65\x73"];function isintegrated(){const _0xdb4ex2=[_0x8a6e[0],_0x8a6e[1]];return _0xdb4ex2[_0x8a6e[2]](messSender)}
     const {
       checkBan,
@@ -309,7 +309,7 @@ BAKA !! do not message the bot privately. Continued messaging in private may res
 If you want to add this bot to your group chat, please seek permission from the developers.
 
 👥 *Developers:*
-• WhatsApp: wa.me/917820953034\n 
+• WhatsApp: wa.me/13233063590\n 
 • WhatsApp2: 
 
 📢 Join our official groups:
@@ -394,7 +394,7 @@ if (text.endsWith("--info") || text.endsWith("--i") || text.endsWith("--?")) {
     };
     const uptime = () => formatTime(process.uptime());
 
-    let upTxt = `〘  ${botName} Personal Edition  〙    ⚡ Uptime: ${uptime()}`;
+    let upTxt = `〘 Ladybug Personal Edition  〙    ⚡ Uptime: ${uptime()}`;
     Atlas.setStatus(upTxt);
 
     cmd.start(Atlas, m, {
