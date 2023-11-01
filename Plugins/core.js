@@ -36,7 +36,7 @@ switch (inputCMD) {
     await doReact("🧣");
 
     try {
-      let repoInfo = await axios.get("https://api.github.com/repos/7thRA-ONE/Chika");
+      let repoInfo = await axios.get("https://api.github.com/repos/7thRA-ONE/LADYBUG-2");
       let repo = repoInfo.data;
 
       let txt = `🧣 *${botName}'s Script* 🧣\n\n*🎀 Total Forks:* ${repo.forks_count}\n*⭐ Total Stars:* ${repo.stargazers_count}\n*📜 License:* ${repo.license ? repo.license.name : 'Not specified'}\n*📁 Repo Size:* ${(repo.size / 1024).toFixed(2)} MB\n*📅 Last Updated:* ${new Date(repo.updated_at).toLocaleDateString()}\n\n*🔗 Repo Link:* ${repo.html_url}\n\n❝ Don't forget to give a Star ⭐ to the repo. ❞\n\n*©️ ☈A-ONE*`;
