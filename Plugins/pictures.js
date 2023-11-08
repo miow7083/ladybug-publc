@@ -1,4 +1,4 @@
-const gis = require("g-i-s");
+const gis = require("async-g-i-s");
 const axios = require("axios");
 const hxzapi = require("hxz-api");
 let mergedCommands = [

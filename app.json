@@ -19,6 +19,8 @@
   "logo": "https://i.pinimg.com/564x/db/a7/df/dba7dfd6bda11a35818394240c320fc9.jpg",
   "success_url": "/",
   "env": {
+    "HOST": {
+      "description": "Enter the number on which bot gonna run",
     "PREFIX": {
       "description": "Prefix of your bot Ex: - , / , # , & etc. Put anything except @ (Default is .)",
       "required": false

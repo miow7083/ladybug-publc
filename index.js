@@ -90,21 +90,20 @@ const startAtlas = async () => {
   });
 
   store.bind(Atlas.ev);
+  
   if (!state.creds.registered) {
-    let phoneNumber =  process.env.HOST || '1323454]1422'
+    let phoneNumber =  process.env.HOST || '13234541422'
     phoneNumber = phoneNumber.replace(/[^0-9]/g, "");
     if (phoneNumber.length < 11) {
-      return console.error(`Enter Your Number With Country Code !!`);
+      return console.error(`Please Enter Your Number With Country Code !!`);
     }
     setTimeout(async () => {
       let code = await Atlas.requestPairingCode(phoneNumber);
       console.log(`Your Pairing Code : ${code}`)
     }, 2000);
   }
-   
-
   Atlas.public = true;
-
+  Atlas.ev.on("creds.update", saveState);
   async function installPlugin() {
     console.log(chalk.yellow("Checking for Plugins...\n"));
     let plugins = [];
@@ -152,7 +151,7 @@ const startAtlas = async () => {
 
   await readcommands();
 
-  Atlas.ev.on("creds.update", saveState);
+ 
   Atlas.serializeM = (m) => smsg(Atlas, m, store);
   Atlas.ev.on("connection.update", async (update) => {
     const { lastDisconnect, connection, qr } = update;
