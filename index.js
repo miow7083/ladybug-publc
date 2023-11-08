@@ -84,7 +84,7 @@ const startAtlas = async () => {
   const Atlas = makeWASocket({
     logger: pino({ level: "silent" }),
     printQRInTerminal: false,
-     browser: ["Chrome (Linux)", "chrome", ""],
+    browser: ["Chrome (Linux)", "chrome", ""],
     auth: state,
     version,
   });
@@ -167,10 +167,10 @@ const startAtlas = async () => {
         );
         process.exit();
       } else if (reason === DisconnectReason.connectionClosed) {
-        console.log("[ ATLAS ] Connection closed, reconnecting....\n");
+        console.log("[ RAONE ] Connection closed, reconnecting....\n");
         startAtlas();
       } else if (reason === DisconnectReason.connectionLost) {
-        console.log("[ ATLAS ] Connection Lost from Server, reconnecting...\n");
+        console.log("[ RAONE] Connection Lost from Server, reconnecting...\n");
         startAtlas();
       } else if (reason === DisconnectReason.connectionReplaced) {
         console.log(

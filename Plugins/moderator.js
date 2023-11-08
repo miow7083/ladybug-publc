@@ -41,6 +41,8 @@ let mergedCommands = [
   "unbangc",
   "setbotmode",
   "mode",
+  "charlist",
+  "switch"
 ];
 
 module.exports = {
@@ -58,6 +60,8 @@ module.exports = {
     "bangroup",
     "unbangroup",
     "mode",
+    "charlist",
+    "switch"
   ],
   description: "All Moderator/Owner Commands",
   start: async (
@@ -364,101 +368,105 @@ module.exports = {
         }
         break;
 
-      case "setchar":
-        if (!text) {
-          await doReact("❌");
-          return Atlas.sendMessage(
-            m.from,
-            { text: `Please enter a character number between 0-19 to set !` },
-            { quoted: m }
-          );
-        }
-        chechSenderModStatus = await checkMod(m.sender);
-        if (!chechSenderModStatus && !isCreator && !isintegrated) {
-          await doReact("❌");
-          return Atlas.sendMessage(m.from, {
-            text: `Sorry, only *Owners* and *Mods* can use this command !`,
-            quoted: m,
-          });
-        }
+      case "switch":
+         case "setchar":
+      const numb = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21"];
+      const botNames = [
+        "Atlas MD",
+        "Power",
+        "Makima",
+        "Denji",
+        "Zero Two",
+        "Chika",
+        "Miku",
+        "Marin",
+        "Ayanokoji",
+        "Ruka",
+        "Mizuhara",
+        "Rem",
+        "Sumi",
+        "Kaguya",
+        "Yumeko",
+        "Kurumi",
+        "Mai",
+        "Yor",
+        "Shinbou",
+        "Eiko",
+        "Ladybug",
+        "Rias",
+      ];
+      const botLogos = [
+        "https://wallpapercave.com/wp/wp5924545.jpg",
+        "https://wallpapercave.com/wp/wp11253614.jpg",
+        "https://images5.alphacoders.com/126/1264439.jpg",
+        "https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1",
+        "https://images3.alphacoders.com/949/949253.jpg",
+        "https://images4.alphacoders.com/100/1002134.png",
+        "https://wallpapercave.com/wp/wp10524580.jpg",
+        "https://images2.alphacoders.com/125/1257915.jpg",
+        "https://wallpapers.com/images/file/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n.jpg",
+        "https://wallpapercave.com/wp/wp8228630.jpg",
+        "https://images3.alphacoders.com/128/1288059.png",
+        "https://images.alphacoders.com/711/711900.png",
+        "https://moewalls.com/wp-content/uploads/2022/07/sumi-sakurasawa-hmph-rent-a-girlfriend-thumb.jpg",
+        "https://wallpapercave.com/wp/wp6099650.png",
+        "https://wallpapercave.com/wp/wp5017991.jpg",
+        "https://wallpapercave.com/wp/wp2535489.jpg",
+        "https://images4.alphacoders.com/972/972790.jpg",
+        "https://images7.alphacoders.com/123/1236729.jpg",
+        "https://wallpapercave.com/wp/wp4650481.jpg",
+        "https://images8.alphacoders.com/122/1229829.jpg",
+        "https://i.pinimg.com/564x/db/a7/df/dba7dfd6bda11a35818394240c320fc9.jpg",
+        "https://i.pinimg.com/564x/e9/31/a2/e931a23debb7e4834a7c2cd0cf5687cb.jpg",
+      ];
 
-        const intinput = parseInt(text);
-        if (intinput < 0 || intinput > 19) {
-          await doReact("❌");
-          return Atlas.sendMessage(
-            m.from,
-            { text: `Please enter a character number between 0-19 to set !` },
-            { quoted: m }
-          );
-        }
-        const botNames = [
-          "Atlas MD",
-          "Power",
-          "Makima",
-          "Denji",
-          "Zero Two",
-          "Chika",
-          "Miku",
-          "Marin",
-          "Ayanokoji",
-          "Ruka",
-          "Mizuhara",
-          "Rem",
-          "Sumi",
-          "Kaguya",
-          "Yumeko",
-          "Kurumi",
-          "Mai",
-          "Yor",
-          "Shinbou",
-          "Eiko",
-        ];
-        const botLogos = [
-          "https://wallpapercave.com/wp/wp5924545.jpg",
-          "https://wallpapercave.com/wp/wp11253614.jpg",
-          "https://images5.alphacoders.com/126/1264439.jpg",
-          "https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/Chainsaw-Man-Denji-e-Power.webp?resize=1068%2C601&ssl=1",
-          "https://images3.alphacoders.com/949/949253.jpg",
-          "https://images4.alphacoders.com/100/1002134.png",
-          "https://wallpapercave.com/wp/wp10524580.jpg",
-          "https://images2.alphacoders.com/125/1257915.jpg",
-          "https://wallpapers.com/images/file/kiyotaka-ayanokoji-in-pink-qs33qgqm79ccsq7n.jpg",
-          "https://wallpapercave.com/wp/wp8228630.jpg",
-          "https://images3.alphacoders.com/128/1288059.png",
-          "https://images.alphacoders.com/711/711900.png",
-          "https://moewalls.com/wp-content/uploads/2022/07/sumi-sakurasawa-hmph-rent-a-girlfriend-thumb.jpg",
-          "https://wallpapercave.com/wp/wp6099650.png",
-          "https://wallpapercave.com/wp/wp5017991.jpg",
-          "https://wallpapercave.com/wp/wp2535489.jpg",
-          "https://images4.alphacoders.com/972/972790.jpg",
-          "https://images7.alphacoders.com/123/1236729.jpg",
-          "https://wallpapercave.com/wp/wp4650481.jpg",
-          "https://images8.alphacoders.com/122/1229829.jpg",
-        ];
+      const input = text.trim();
+      let intinput;
 
+      if (!input) {
+        await doReact("❌");
+        return Atlas.sendMessage(m.from, { text: "Please enter a character number or name to set!" }, { quoted: m });
+      }
+
+      if (numb.includes(input)) {
+        intinput = parseInt(input);
+        if (intinput < 0 || intinput > 21) {
+          await doReact("❌");
+          return Atlas.sendMessage(m.from, { text: "Please enter a character number between 0-21 to set!" }, { quoted: m });
+        }
+      } else {
+        const nameIndex = botNames.findIndex(name => name.toLowerCase() === input.toLowerCase());
+        if (nameIndex !== -1) {
+          intinput = nameIndex;
+        } else {
+          await doReact("❌");
+          return Atlas.sendMessage(m.from, { text: "Invalid character number or name. Please enter a valid character number or name to set!" }, { quoted: m });
+        }
+      }
+
+      if (!isCreator) {
+        await doReact("❌");
+        return Atlas.sendMessage(m.from, { text: "Sorry, only Owners and Mods can use this command!" }, { quoted: m });
+      }
+
+      // const currentChar = await getChar();
         checkChar = await getChar();
-        if (checkChar === intinput) {
-          await doReact("✅");
-          return Atlas.sendMessage(
-            m.from,
-            {
-              image: { url: botLogos[intinput] },
-              caption: `Character number *${intinput}* - *${botNames[intinput]}* is already default !`,
-            },
-            { quoted: m }
-          );
-        }
+      if (checkChar === intinput) {
         await doReact("✅");
-        await setChar(intinput);
-        await Atlas.sendMessage(
-          m.from,
-          {
-            image: { url: botLogos[intinput] },
-            caption: `Character number *${intinput}* - *${botNames[intinput]}* has been set Successfully by *${pushName}*`,
-          },
-          { quoted: m }
-        );
-        break;
+        return Atlas.sendMessage(m.from, {
+          image: { url: botLogos[intinput] },
+          caption: `Character number ${intinput} - ${botNames[intinput]} is already set as default!`,
+        }, { quoted: m });
+      }
+
+      await doReact("✅");
+      await setChar(intinput);
+      await Atlas.sendMessage(m.from, {
+        image: { url: botLogos[intinput] },
+        caption: `Character number ${intinput} - ${botNames[intinput]} has been set successfully by ${pushName}`,
+      }, { quoted: m });
+
+      break;
 
       case "dmchatbot":
       case "pmchatbot":
@@ -510,7 +518,40 @@ module.exports = {
         }
 
         break;
+        case "charlist":
+        await doReact("💟");
 
+        const BotNames = [
+          "Atlas MD",
+          "Power",
+          "Makima",
+          "Denji",
+          "Zero Two",
+          "Chika",
+          "Miku",
+          "Marin",
+          "Ayanokoji",
+          "Ruka",
+          "Mizuhara",
+          "Rem",
+          "Sumi",
+          "Kaguya",
+          "Yumeko",
+          "Kurumi",
+          "Mai",
+          "Yor",
+          "Shinbou",
+          "Eiko",
+          "Ladybug",
+          "Rias",
+        ];
+
+        const formattedList = BotNames.map((name, index) => `${index}. ${name}`).join("\n");
+
+        const message = `💫 Character List 💫:\n\n${formattedList}\n\nTo set a character, type *${prefix}setchar <character number>*`;
+
+        await Atlas.sendMessage(m.from, { text: message }, { quoted: m });
+break;
       case "bangroup":
       case "bangc":
         if (!m.isGroup) {

@@ -1,33 +1,25 @@
-/* ---------------------------------------------------------------------------------/
-/                                                                                   /
-/             d8888 888    888                        888b     d888 8888888b.       /
-/            d88888 888    888                        8888b   d8888 888  "Y88b      /
-/           d88P888 888    888                        88888b.d88888 888    888      /
-/          d88P 888 888888 888  8888b.  .d8888b       888Y88888P888 888    888      /
-/         d88P  888 888    888     "88b 88K           888 Y888P 888 888    888      /
-/        d88P   888 888    888 .d888888 "Y8888b.      888  Y8P  888 888    888      /
-/       d8888888888 Y88b.  888 888  888      X88      888   "   888 888  .d88P      /
-/      d88P     888  "Y888 888 "Y888888  88888P'      888       888 8888888P"       /
-/                                                                                   / 
-/-----------------------------------------------------------------------------------/
-/ Author and Main Developer: FantoX                                                 /
-/ Github: https://github.com/FantoX001/Atlas-MD                                     /
-/ Powered By: Team ATLAS                                                            /
-/-----------------------------------------------------------------------------------/
-/             Meet Team ATLAS who holds all rights to this repository:              /
-/                                                                                   /
-/ 1. Pratyush - https://github.com/pratyush4932                                     /
-/ 2. Ahmii - https://github.com/Ahmii-kun                                           /               
-/ 3. Kai - https://github.com/Kai0071                                               /                    
-/ 4. Devime - https://github.com/Devime69                                           /
-/ 5. Jay JayOps - https://github.com/jayjay-ops                                     /
-/                                                                                   /
-/ ----------------------------------------------------------------------------------/
-/                                                                                   /
-/      With all of our hard work and defication you can enjoy this awesome bot!     /  
-/                                                                                   / 
-/----------------------------------------------------------------------------------*/
 
+/* 
+
+    ____  ___   ____  _   ________
+   / __ \/   | / __ \/ | / / ____/
+  / /_/ / /| |/ / / /  |/ / __/   
+ / _, _/ ___ / /_/ / /|  / /___   
+/_/ |_/_/  |_\____/_/ |_/_____/   
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 /* ---Added Anime Character list---  /
@@ -288,4 +280,26 @@ global.charID19 = {
   botImage4 : "https://images6.alphacoders.com/126/1260043.png",
   botImage5 : "https://images6.alphacoders.com/124/1247977.jpg",
   botImage6 : "https://images2.alphacoders.com/125/1251795.jpg",
+}
+
+global.charID20 = {
+  botName : "Ladybug",
+  botVideo : "https://graph.org/file/36e7f6fc8a1b776f9985e.mp4",
+  botImage1 : "https://wallpapercave.com/dwp1x/wp6252788.jpg",
+  botImage2 : "https://wallpapercave.com/dwp1x/wp6253005.jpg",
+  botImage3 : "https://wallpapercave.com/dwp1x/wp6253151.jpg",
+  botImage4 : "https://wallpapercave.com/dwp1x/wp6253186.jpg",
+  botImage5 : "https://wallpapercave.com/dwp1x/wp4575392.jpg",
+  botImage6 : "https://wallpapercave.com/dwp1x/wp2007987.png",
+}
+
+global.charID21 = {
+  botName : "𝑅𝛪𝛥𝑆",
+  botVideo : "https://graph.org/file/12bd5b6507626991da501.mp4",
+  botImage1 : "https://wallpapercave.com/wp/wp12626560.jpg",
+  botImage2 : "https://wallpapercave.com/wp/wp6092531.jpg",
+  botImage3 : "https://wallpapercave.com/wp/wp12626582.jpg",
+  botImage4 : "https://wallpapercave.com/wp/wp12626556.png",
+  botImage5 : "https://wallpapercave.com/wp/wp12227427.jpg",
+  botImage6 : "https://wallpapercave.com/wp/wp12626572.jpg",
 }
