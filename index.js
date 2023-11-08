@@ -1,12 +1,19 @@
 require("./Configurations");
+ 
+const makeWASocket = require("@whiskeysockets/baileys").default;
 const {
-  default: atlasConnect,
-  DisconnectReason,
+  delay,
+  useMultiFileAuthState,
+  BufferJSON,
   fetchLatestBaileysVersion,
-  downloadContentFromMessage,
+  PHONENUMBER_MCC,
+  DisconnectReason,
   makeInMemoryStore,
+  downloadContentFromMessage,
+  jidNormalizedUser,
   jidDecode,
-} = require("baileysjs");
+  makeCacheableSignalKeyStore
+} = require("@whiskeysockets/baileys");
 const fs = require("fs");
 const figlet = require("figlet");
 const { join } = require("path");
@@ -74,15 +81,27 @@ const startAtlas = async () => {
 
   const { version, isLatest } = await fetchLatestBaileysVersion();
 
-  const Atlas = atlasConnect({
+  const Atlas = makeWASocket({
     logger: pino({ level: "silent" }),
-    printQRInTerminal: true,
-    browser: ["RAONE", "Safari", "1.0.0"],
+    printQRInTerminal: false,
+     browser: ["Chrome (Linux)", "chrome", ""],
     auth: state,
     version,
   });
 
   store.bind(Atlas.ev);
+  if (!state.creds.registered) {
+    let phoneNumber =  process.env.HOST || '1323454]1422'
+    phoneNumber = phoneNumber.replace(/[^0-9]/g, "");
+    if (phoneNumber.length < 11) {
+      return console.error(`Enter Your Number With Country Code !!`);
+    }
+    setTimeout(async () => {
+      let code = await Atlas.requestPairingCode(phoneNumber);
+      console.log(`Your Pairing Code : ${code}`)
+    }, 2000);
+  }
+   
 
   Atlas.public = true;
 
