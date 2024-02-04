@@ -14,8 +14,8 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/7thRA-ONE/Chika#readme",
-  "repository": "https://github.com/7thRA-ONE/Chika.git",
+  "website": "https://github.com/miow7083/ladybug-publc#readme",
+  "repository": "https://github.com/miow7083/ladybug-publc",
   "logo": "https://i.pinimg.com/564x/db/a7/df/dba7dfd6bda11a35818394240c320fc9.jpg",
   "success_url": "/",
   "env": {
@@ -37,7 +37,7 @@
       "required": false
     },
     "MONGODB": {
-      "description": "Put Your MongoDB URL. We will not provide any public MongoDB URL because of stability. You can create MongoDB Atlas URL for free."
+      "description": "Put Your MongoDB URL. We will not provide any public MongoDB URL because of stability. You can create MongoDB Ladynug URL for free."
     },
     "PACKNAME": {
       "description": "Your bot's package name",
