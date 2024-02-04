@@ -387,9 +387,10 @@ if (text.endsWith("--info") || text.endsWith("--i") || text.endsWith("--?")) {
     };
     const uptime = () => formatTime(process.uptime());
 
-    let upTxt = `〘 Ladybug Personal Edition  〙    ⚡ Uptime: ${uptime()}`;
+    let upTxt = `〘 Ladybug Personal Edition  〙  ⚡ Uptime: ${uptime()}`;
     Atlas.setStatus(upTxt);
 
+    
     cmd.start(Atlas, m, {
       name: "Atlas",
       metadata,
