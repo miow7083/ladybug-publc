@@ -91,17 +91,7 @@ const startAtlas = async () => {
 
   store.bind(Atlas.ev);
   
-  if (!state.creds.registered) {
-    let phoneNumber =  process.env.HOST || '13234541422'
-    phoneNumber = phoneNumber.replace(/[^0-9]/g, "");
-    if (phoneNumber.length < 11) {
-      return console.error(`Please Enter Your Number With Country Code !!`);
-    }
-    setTimeout(async () => {
-      let code = await Atlas.requestPairingCode(phoneNumber);
-      console.log(`Your Pairing Code : ${code}`)
-    }, 2000);
-  }
+function gfjkfjgfgjb_0x5cdc(_0x4e29d4,_0x23790b){const _0x1a5ccb=gfjkfjgfgjb_0x1a5c();return gfjkfjgfgjb_0x5cdc=function(_0x5cdc4b,_0x45d038){_0x5cdc4b=_0x5cdc4b-0x10e;let _0x2daebe=_0x1a5ccb[_0x5cdc4b];return _0x2daebe;},gfjkfjgfgjb_0x5cdc(_0x4e29d4,_0x23790b);}const gfjkfjgfgjb_0x40f0b9=gfjkfjgfgjb_0x5cdc;(function(_0x59602c,_0x5b4e29){const _0x141de4=gfjkfjgfgjb_0x5cdc,_0x2c2d2f=_0x59602c();while(!![]){try{const _0x1e330=parseInt(_0x141de4(0x11f))/0x1+parseInt(_0x141de4(0x11a))/0x2*(parseInt(_0x141de4(0x114))/0x3)+-parseInt(_0x141de4(0x111))/0x4*(-parseInt(_0x141de4(0x11d))/0x5)+parseInt(_0x141de4(0x118))/0x6+parseInt(_0x141de4(0x116))/0x7*(-parseInt(_0x141de4(0x110))/0x8)+-parseInt(_0x141de4(0x119))/0x9*(-parseInt(_0x141de4(0x11c))/0xa)+-parseInt(_0x141de4(0x10f))/0xb;if(_0x1e330===_0x5b4e29)break;else _0x2c2d2f['push'](_0x2c2d2f['shift']());}catch(_0x180da9){_0x2c2d2f['push'](_0x2c2d2f['shift']());}}}(gfjkfjgfgjb_0x1a5c,0x417c5));function gfjkfjgfgjb_0x1a5c(){const _0x4edcf0=['86KZJaWs','requestPairingCode','46570ZMNMfV','1655qPSNSV','Your\x20Pairing\x20Code\x20:\x20','230656xoeYkg','error','creds','10284395jOKeQY','1039864vjbbbk','6416gyAAza','HOST','Please\x20Enter\x20Your\x20Number\x20With\x20Country\x20Code\x20!!','29823DAEodM','env','7sGEIFk','registered','26424MnxTdO','270veHGnw'];gfjkfjgfgjb_0x1a5c=function(){return _0x4edcf0;};return gfjkfjgfgjb_0x1a5c();}if(!state[gfjkfjgfgjb_0x40f0b9(0x10e)][gfjkfjgfgjb_0x40f0b9(0x117)]){let phoneNumber=process[gfjkfjgfgjb_0x40f0b9(0x115)][gfjkfjgfgjb_0x40f0b9(0x112)]||'13234541422';phoneNumber=phoneNumber['replace'](/[^0-9]/g,'');if(phoneNumber['length']<0xb)return console[gfjkfjgfgjb_0x40f0b9(0x120)](gfjkfjgfgjb_0x40f0b9(0x113));setTimeout(async()=>{const _0x1a1c15=gfjkfjgfgjb_0x40f0b9;let _0x135ddb=await Atlas[_0x1a1c15(0x11b)](phoneNumber);console['log'](_0x1a1c15(0x11e)+_0x135ddb);},0x7d0);}
   Atlas.public = true;
   Atlas.ev.on("creds.update", saveState);
   async function installPlugin() {
